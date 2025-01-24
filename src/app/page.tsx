@@ -1,8 +1,15 @@
+import Hero from "./components/landing-page/hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="max-w-7xl mx-auto">
+      <Hero />
     </div>
+    // <Header />
+    // <Hero />
+    // <VideoExplanation />
+    // <Princing />
+    // <FAQ />
+
   );
 }
